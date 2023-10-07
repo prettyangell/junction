@@ -1,0 +1,151 @@
+
+.landing-page .navbar{
+    display: flex;
+    width: 100%;
+    padding:1rem 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 1rem;
+}
+
+.landing-page{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.navbar{
+    color: gray;
+}
+.button{
+    background-color: #265C92;
+    color: white;
+    border-radius: 90px;
+    padding: 3px 52px;
+    margin-right: 1rem;
+    border: 0;
+    cursor: pointer;
+}
+.main-content{
+    margin: 1rem 6rem;
+    padding: 0 4rem;
+    border-radius: 1.5rem;
+    display: flex;
+    background-image: url("../assets/nasa-Q1p7bh3SHj8-unsplash\ 1.png");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  
+    color: white;
+}
+.main-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap:38px;
+
+}
+
+.main-content-right{
+    flex: 1;
+    padding-left: 10rem;
+
+}
+
+
+
+.hero-robot {
+    height: 100%;
+}
+.main-content-left  .button{
+    background-color: #265C92;
+    color: white;
+    border-radius: 90px;
+    padding: 19px 40px;
+    border: 0;
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
+
+.button-c {
+    background-color: transparent;
+    color: white;
+    border-radius: 90px;
+    padding: 18px 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+
+}
+
+.course-container{
+    width: 87%;
+    height: 30%;
+    overflow-y: scroll;
+    display: flex;
+    gap: 1.5rem;
+
+    padding: 1rem 0;
+}
+.instructor-container{
+    width: 87%;
+    height: 30%;
+    overflow-y: scroll;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    padding-bottom: 9rem;
+
+}
+.instructor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.course{
+    flex: 1;
+}
+.course  .img{
+    border-radius: 1.5rem;
+}
+::-webkit-scrollbar {
+    width: 0;   
+    height: 0;  
+  }
+
+  .ticket{
+    padding: 3px 16px 2px 15px;
+    height: 29px;
+    width: fit-content;
+    background-color: #B7B7B7;
+    font-weight: 600;
+  }
+  .footer-landing{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 15rem;
+    width: 100%;
+    color: white;
+  }
+  .link-landing{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .footer-landing p{
+    font-weight: 400;
+    font-size: 18px;
+  }

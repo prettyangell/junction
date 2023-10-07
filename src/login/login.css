@@ -1,0 +1,141 @@
+/* src/Login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem;
+    
+}
+
+
+  /* .avatar-login{
+    width: auto;
+    height: auto;
+  } */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  
+
+  .login-left{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  label {
+    margin-bottom: 8px; 
+  }
+  
+  input[type="text"] {
+    width: 434px;
+    height: 25px;
+    border-radius: 0.5rem;
+  }
+  .round-check {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .check-input {
+    display: none; 
+  }
+  
+  .checkmark {
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .round-check {
+    font-weight: 400;
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .check-input {
+    display: none; 
+  }
+  
+  .checkmark {
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin-right: 8px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .check-input:checked + .checkmark {
+    background-color: #265C92;
+    border-color: #ffff;
+  }
+  
+
+.round-check span {
+  font-size: 1px;
+  
+}
+.field-label{
+      margin-bottom: 8px;
+  }
+
+.login-button{
+  background: white;
+  color: #265C92;
+  font-size: large;
+  font-weight: 800;
+  width: 212px;
+  height: 60px;
+  margin-top:4rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.login-button-container{
+  padding: 50px;
+  border: 5px solid black;
+}
+a{
+  text-decoration: underline;
+  color: white;
+  margin-top:1rem;
+}
+.login-right{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+body{
+  background-color: #001833;
+}

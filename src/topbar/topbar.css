@@ -1,0 +1,31 @@
+/* .navbar{
+    display: flex;
+    margin: 0 2rem 0 0;
+    color: aliceblue;
+    justify-content: space-between;
+}
+.info{
+    list-style: none;
+    font-weight: 600;
+    display: flex;
+}
+.info li{
+    margin-left: 4rem;
+}
+.logo-container{
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+
+}
+.logo {
+    /* margin-bottom: 17.3rem; 
+    width: 8rem;
+    height: -8rem;
+    /* object-fit: cover;
+    vertical-align: top; 
+    flex-shrink: 0;
+  
+/* body{
+    background-color: #001833;
+}  */
